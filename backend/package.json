@@ -1,0 +1,32 @@
+{
+  "name": "mern_web",
+  "version": "1.0.0",
+  "description": "To add Employee details",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunthunderfrost27/MERN_employee.git"
+  },
+  "author": "Arun Balakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunthunderfrost27/MERN_employee/issues"
+  },
+  "homepage": "https://github.com/arunthunderfrost27/MERN_employee#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "mongoose-sequence": "^6.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  }
+}
